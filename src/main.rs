@@ -108,7 +108,7 @@ fn remove_todo(todo_list: &mut Vec<TodoItem>) {
     println!("Choose the todo you want to delete:");
     let temp: String = get_input();
     let index = match temp.parse::<i32>() {
-        // indexes provided to user are starting from 1, so have to subtract 1 from to in order to make it compatible with vector indexes
+        // indexes provided to user are 1 index ahead of the actual index
         Ok(num) => Some(num - 1),
         Err(err) => {
             eprintln!("ERROR: {}", err);
