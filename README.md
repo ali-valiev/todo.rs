@@ -1,5 +1,5 @@
 # Todo.rs  
-### Blazingly fast cli todo list written in rust 🦀
+#### Blazingly fast cli todo list written in rust 🦀
 
 ### Not recommended for daily use because of crucial lacking features  
 One of them is storing of the todo list itself. For now it's stored in the heap XD  
