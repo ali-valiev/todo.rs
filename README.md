@@ -1,7 +1,7 @@
 # Todo.rs  
 
 ### Just another piece of shit
-One of them is storing of the todo list itself. For now it's stored in the heap XD  
+A big problem is storing of the todo list itself. For now it's stored in the heap XD  
 Will add saving to a file tho  
 This was a just beginner level learning project to get handy in rust, so don't expect much
 
